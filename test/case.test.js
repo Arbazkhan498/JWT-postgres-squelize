@@ -38,11 +38,11 @@ afterAll(async () => {
 
 describe('Signin cases', () => {
 
-    //change username before this test.
-    // test('should create User', async () => {
-    //     expect(await signIn('user7', '123456')).toBe(await userFetch('user7'));
+    change username before this test.
+    test('should create User', async () => {
+        expect(await signIn('user7', '123456')).toBe(await userFetch('user7'));
        
-    // })
+    })
     test('should fail sign in ---> username already exist',async()=>{
         expect(await signIn('user4','123456')).toBe(errors[3]);
     })
