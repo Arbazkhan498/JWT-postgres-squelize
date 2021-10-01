@@ -1,7 +1,7 @@
 const express= require('express');
 const router= express.Router();
 const bcrypt= require('bcryptjs');
-const {sequelize,User}= require('../models');
+const { sequelize, User } = require('../models/');
 
 router.post('/api/register',async(req,res)=>{
     try{
