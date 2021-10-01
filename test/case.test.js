@@ -38,7 +38,7 @@ afterAll(async () => {
 
 describe('Signin cases', () => {
 
-    change username before this test.
+//     change username before this test.
     test('should create User', async () => {
         expect(await signIn('user7', '123456')).toBe(await userFetch('user7'));
        
